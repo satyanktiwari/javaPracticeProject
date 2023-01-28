@@ -1,4 +1,4 @@
-package pInhertance;
+package pInhertanceInterface;
 
 public interface IndianMedical extends Medical {
     public void dental();

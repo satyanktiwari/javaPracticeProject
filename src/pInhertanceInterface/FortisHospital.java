@@ -1,4 +1,4 @@
-package pInhertance;
+package pInhertanceInterface;
 
 public class FortisHospital extends UNHG implements UsMedical, UkMedical, IndianMedical{
 

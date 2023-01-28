@@ -1,4 +1,4 @@
-package pInhertance;
+package pInhertanceInterface;
 
 public interface UsMedical extends Medical {
     static final int min_fee = 10;
