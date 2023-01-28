@@ -1,4 +1,4 @@
-package pInhertance;
+package pInhertanceInterface;
 
 public class UNHG {
     public void healthGuidelines(){
