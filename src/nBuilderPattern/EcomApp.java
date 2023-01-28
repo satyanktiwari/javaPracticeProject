@@ -19,7 +19,7 @@ public class EcomApp {
     //login with username and password
 
     public EcomApp login(String username, String password) {
-        System.out.println("Username: "+username +"Password:  "+password 
+        System.out.println("Username: "+username +" Password:  "+password 
                                 + " \nLogin Successful");
         return this;
     }
