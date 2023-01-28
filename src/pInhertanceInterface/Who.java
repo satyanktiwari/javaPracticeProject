@@ -1,4 +1,4 @@
-package pInhertance;
+package pInhertanceInterface;
 
 public interface Who {
     public void covid();

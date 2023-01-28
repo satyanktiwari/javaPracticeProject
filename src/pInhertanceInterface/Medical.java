@@ -1,4 +1,4 @@
-package pInhertance;
+package pInhertanceInterface;
 
 public interface Medical extends Who{
     public void medicalFunds();
