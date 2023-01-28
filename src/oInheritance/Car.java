@@ -1,6 +1,9 @@
 package oInheritance;
 
 public class Car extends Machine{
+    /**
+     * This is the parent class -02
+     */
     
     public void start(){
         System.out.println("Car started");

@@ -1,6 +1,9 @@
 package oInheritance;
 
 public class Maruti extends Car{
+    /**
+     * This is the child class -03
+     */
 
     //Method Overrding: poly+morphism -> dynamic (RunTime)
 	//when you have the same method in parent class and in child class
