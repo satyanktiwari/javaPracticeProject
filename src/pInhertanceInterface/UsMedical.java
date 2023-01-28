@@ -1,6 +1,9 @@
-package pInhertance;
+package pInhertanceInterface;
 
 public interface UsMedical extends Medical {
+    /**
+     * Parent
+     */
     static final int min_fee = 10;
 
     // No Method Body//only method declaration
