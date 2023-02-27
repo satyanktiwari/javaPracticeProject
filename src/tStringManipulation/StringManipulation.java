@@ -47,6 +47,7 @@ public class StringManipulation {
         }
 
         //Exception - StringIndexOutOfBoundsException
+        System.out.println("Exception sample\n");
         
         try {      
             System.out.println(str.charAt(12));      
@@ -55,12 +56,43 @@ public class StringManipulation {
             e.printStackTrace();
         }
         // String comparision
+        System.out.println("String comparision sample\n");
         String str1 = "Hello";
         String str2 = "Hello";
         String str3 = "hello";
         System.out.println("Comparing 2 strings using dot equals");
         System.out.println(str1.equals(str2));
         System.out.println(str3.equalsIgnoreCase(str2));
+
+        //Replace
+        System.out.println("Replace sample\n");
+        String dob = "10/10/1990";
+        System.out.println(dob.replace("/", "-"));
+
+        //Split
+        System.out.println("Split sample\n");
+        String language = "java_python_ruby_goLang";
+        String lg[]= language.split("_");
+        for (String e : lg) {
+            System.out.println(e);
+        }
+
+        // Some more examples
+        System.out.println("Some more examples\n");
+        String testString1 = "xXtestingxXSeleniumxXcypressxXQTPxX";
+        String testToolsArray []= testString1.split("xX");
+        for (String e : testToolsArray) {
+            System.out.println(e);
+        }
+
+        //Practical example with employee data
+        System.out.println("Practical example with employee data\n");
+        String empData = "1001,Rohit,25000,01/01/2019,Manager";
+        String empDataArray[] = empData.split(",");
+        for (String e : empDataArray) {
+            System.out.println(e);
+        }
+
     }
 
     
