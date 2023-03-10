@@ -93,9 +93,15 @@ public class StringManipulation {
             System.out.println(e);
         }
 
+        //create object of this class
+        System.out.println("Comparing object and a ref variable\n");
+        StringManipulation sm = new StringManipulation();
+        System.out.println(sm.classStr == str);
+
+
     }
 
-    
+    String classStr = "Hello World";
 
     
     
